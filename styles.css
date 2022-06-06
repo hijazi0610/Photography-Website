@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bgimg-1 {
+    background-image: url("/Photography-Website/Images/IMG_2292.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+}
+
+.caption {
+    color: black;
+    padding: 18px;
+    font-size: 15px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.border {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.section-1 {
+    margin: 50px;
+    text-align: center;
+    line-height: 220%;
+}
+
+.bgimg-2 {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Photography-Website/Images/IMG_2041.JPG");
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.bgimg-2 span.quote-1 {
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 40%;
+}
+
+.quote-1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+}
+
+.section-2 {
+    margin: 50px;
+    text-align: center;
+    line-height: 220%;
+}
+
+.bgimg-4 {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Photography-Website/Images/IMG_1638.JPG");
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 1.25em;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #D8D8D8;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    
+}
+
