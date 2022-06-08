@@ -4,6 +4,7 @@
 }
 
 .bgimg-1 {
+    position: relative;
     background-image: url("/Photography-Website/Images/IMG_2292.JPG");
     background-attachment: fixed;
     background-position: center;
@@ -12,15 +13,14 @@
     min-height: 1000px;
 }
 
-.caption .border {
+ .caption {
     position: absolute;
     top: 50%;
     left: 30%;
-    text-align: center;
     color: black;
     background-color: #D0D0D0;
     padding: 18px;
-    font-size: 17px;
+    font-size: 11px;
     letter-spacing: 10px;
     text-transform: uppercase;
 }
@@ -91,3 +91,9 @@
     
 }
 
+@media all and (max-width: 1000px) {
+    .caption {
+        top: 50%;
+        left: 50%;
+    }
+}
